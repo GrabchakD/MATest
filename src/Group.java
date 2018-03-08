@@ -45,6 +45,6 @@ public class Group {
             }
             count++;
         }
-        System.out.println(firstN + " " + lastN);
+        System.out.println("Soo, our elder is: " + firstN + " " + lastN);
     }
 }

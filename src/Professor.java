@@ -22,4 +22,28 @@ public class Professor {
         }
         System.out.println("Ok, all students here");
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public String getEmployment() {
+        return employment;
+    }
+
+    public void setEmployment(String employment) {
+        this.employment = employment;
+    }
 }
